@@ -37,13 +37,13 @@ public class readAffinity {
 	
 	public int[][] getData() {
 		int len = Affinity.size();
-		int[][] data=new int[numInstance][numInstance];
+		int[][] data=new int[len][2];
 		int p,q;
 		for(int i=0; i<len; i++){
 			p=(int)Affinity.get(i)[0];
 			q=(int)Affinity.get(i)[1];
-			data[p][q]=1;
-			data[q][p]=1;
+			data[i][0]=q;
+			data[i][1]=p;
 		}
 
 		return data;
