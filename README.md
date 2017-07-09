@@ -1,4 +1,4 @@
 # UNcut
 Wei Ye (ye@dbs.ifi.lmu.de)
 
-for the submission to ECML-PKDD 2017
+Attributed Graph Clustering with Unimodal Normalized Cut, ECML-PKDD 2017
